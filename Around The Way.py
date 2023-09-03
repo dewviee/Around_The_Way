@@ -1086,6 +1086,9 @@ for i in range(5):
 if __name__ == "__main__":
     screen.set_icon("icon.png")  # Replace "icon.png" with the actual filename of your icon
     pgzrun.go()
+else :
+    pgzrun.go()
+
 
 
 
