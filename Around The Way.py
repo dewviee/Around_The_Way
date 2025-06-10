@@ -1083,8 +1083,12 @@ player_animation = []
 for i in range(5):
     player_animation.append([f'player_left{i+1}', f'player_right{i+1}'])
     
+if __name__ == "__main__":
+    screen.set_icon("icon.png")  # Replace "icon.png" with the actual filename of your icon
+    pgzrun.go()
+else :
+    pgzrun.go()
 
-pgzrun.go()
 
 
 
