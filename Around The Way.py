@@ -8,6 +8,12 @@ from random import randint
 WIDTH = 1280
 HEIGHT = 720
 
+sounds.problem.set_volume(0.7)
+sounds.laser.set_volume(0.05)
+sounds.explosion1.set_volume(0.2)
+sounds.explosion2.set_volume(0.2)
+sounds.explosion3.set_volume(0.2)
+
 ''' INIT CONFIG FOR CUSTOM MENU '''
 
 player_speed = 7
